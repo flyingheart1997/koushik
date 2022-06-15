@@ -3,6 +3,7 @@ import React, {useState} from "react";
 import { AiFillGithub,AiFillLinkedin } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 import {GiTie} from 'react-icons/gi'
+import {GrTwitter} from 'react-icons/gr'
 import { useTheme } from "next-themes";
 import { motion } from 'framer-motion';
 import { fadeInUp, routeAnimation, stagger } from '../animations';
@@ -81,9 +82,10 @@ const Sidebar = () => {
           </Modal>
       </motion.div>
       {/* social icon */}
-      <div className="flex items-center justify-center gap-10 font-semibold lg:gap-4 dark:text-red-200">
-          <a className="flex items-center justify-start pl-2 gap-1 px-3 py-0.5 my-2 tracking-wider dark:bg-dark-700 rounded-full bg-gray-200" href="https://github.com/flyingheart1997"><AiFillGithub className="rounded-full dark:text-yellow-200 text-green w-7 h-7"/>Github </a>
-          <a className="flex items-center justify-center pl-2 gap-1 px-3 py-0.5 my-2 tracking-wider dark:bg-dark-700 rounded-full bg-gray-200" href="https://www.linkedin.com/in/koushik-mondal-0a299723b/"><AiFillLinkedin className="rounded-full dark:text-yellow-200 text-green w-7 h-7"/>LinkedIn</a>
+      <div className="flex items-center justify-center gap-12 font-semibold space-x-7 lg:gap-4 dark:text-red-200">
+          <a className="flex items-center justify-start my-2 tracking-wider " href="https://github.com/flyingheart1997"><AiFillGithub className="w-8 h-8 rounded-full dark:text-yellow-200 text-green"/> </a>
+          <a className="flex items-center justify-start my-2 tracking-wider " href="https://twitter.com/Koushikm1997"><GrTwitter className="w-8 h-8 rounded-full dark:text-yellow-200 text-green"/> </a>
+          <a className="flex items-center justify-center my-2 tracking-wider " href="https://www.linkedin.com/in/koushik-mondal-0a299723b/"><AiFillLinkedin className="w-8 h-8 rounded-full dark:text-yellow-200 text-green"/></a>
       </div>
       {/* address */}
       <div className="py-4 my-3 font-semibold tracking-wider bg-gray-200 rounded-md dark:bg-dark-200" style={{marginLeft:"0rem", marginRight:'0rem'}}> 

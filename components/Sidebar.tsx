@@ -84,7 +84,7 @@ const Sidebar = () => {
       {/* social icon */}
       <div className="flex items-center justify-center gap-12 font-semibold space-x-7 lg:gap-4 dark:text-red-200">
           <a className="flex items-center justify-start my-2 tracking-wider " href="https://github.com/flyingheart1997"><AiFillGithub className="w-8 h-8 rounded-full dark:text-yellow-200 text-green"/> </a>
-          <a className="flex items-center justify-start my-2 tracking-wider " href="https://twitter.com/Koushikm1997"><GrTwitter className="w-8 h-8 rounded-full dark:text-yellow-200 text-green"/> </a>
+          <a className="flex items-center justify-start my-2 tracking-wider " href="https://twitter.com/koushikm_mondal"><GrTwitter className="w-8 h-8 rounded-full dark:text-yellow-200 text-green"/> </a>
           <a className="flex items-center justify-center my-2 tracking-wider " href="https://www.linkedin.com/in/koushik-mondal-0a299723b/"><AiFillLinkedin className="w-8 h-8 rounded-full dark:text-yellow-200 text-green"/></a>
       </div>
       {/* address */}
@@ -103,6 +103,3 @@ const Sidebar = () => {
 };
 
 export default Sidebar
-
-
-//href="" download='name'

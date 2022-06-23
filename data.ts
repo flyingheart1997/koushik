@@ -67,10 +67,10 @@ export const myprojects:IProject[] = [
     {
         id: 2,
         name: 'MY_GYM',
-        description: 'This site shows all the popular  Exercies moves and related Videos, Improve your memory and brain function.Protect against many chronic diseases. Lower blood pressure and improve heart health. Improve your quality of sleep.',
+        description: 'This site shows all the popular  Exercies moves and related Videos, Improve your BodyParts and brain more strong.Protect against many chronic diseases. Lower blood pressure and improve heart health. Improve your quality of sleep.',
         image_path: '/images/my_gym.png',
-        deployed_url: '',
-        github_url: 'https://github.com/flyingheart1997',
+        deployed_url: 'https://gym-work.netlify.app/',
+        github_url: 'https://github.com/flyingheart1997/my_gym',
         category: ['react'],
         key_tags: ['React','Material UI','API']
     },

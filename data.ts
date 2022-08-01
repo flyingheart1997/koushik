@@ -5,13 +5,7 @@ export const languages:ISkill[]=[
     {
         Icon: BsFillCircleFill,
         name: 'Python',
-        level: '85%',
-        levels: '100%'
-    },
-    {
-        Icon: BsFillCircleFill,
-        name: 'Django',
-        level: '65%',
+        level: '90%',
         levels: '100%'
     },
     {
@@ -29,25 +23,31 @@ export const languages:ISkill[]=[
     {
         Icon: BsFillCircleFill,
         name: 'Next.js',
+        level: '70%',
+        levels: '100%'
+    },
+    {
+        Icon: BsFillCircleFill,
+        name: 'Mongo DB',
         level: '65%',
         levels: '100%'
     },
     {
         Icon: BsFillCircleFill,
         name: 'GitHub',
-        level: '70%',
-        levels: '100%'
-    },
-    {
-        Icon: BsFillCircleFill,
-        name: 'Bootstrap',
         level: '80%',
         levels: '100%'
     },
     {
         Icon: BsFillCircleFill,
+        name: 'Html',
+        level: '85%',
+        levels: '100%'
+    },
+    {
+        Icon: BsFillCircleFill,
         name: 'Tailwind CSS',
-        level: '95%',
+        level: '90%',
         levels: '100%'
     },
     

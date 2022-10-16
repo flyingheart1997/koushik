@@ -16,7 +16,7 @@ const index = () => {
           <p className='pb-2 dark:text-slate-200' style={{fontSize:'18px', lineHeight:'1.2rem'}}>Calcutta Institute of Technology(2017-2020).</p>
           {/* <p className='tracking-wide text-dark-100 dark:text-slate-400' style={{fontSize:'17px',lineHeight:'1.2rem',fontWeight:'600'}}>I have completed B.Tech in Computer Science Engineering from Calcutta Institute of Technology(2020). I have Learned different Programming Languages...</p> */}
           <p className='tracking-wide text-dark-100 dark:text-slate-400' style={{fontSize:'17px',lineHeight:'1.2rem',fontWeight:'600'}}>
-            B.Tech Computer Science and Engineering, Graduate with a 73.3% score in academics. Have knowledge in Python, HTML5, CSS, JavaScript, BootStrap, Web API, React.js,Next.js. Ability to design and maintain application phases.</p>
+            B.Tech Computer Science and Engineering, Graduate with a 73.3% score in academics. Have knowledge in Python, HTML5, CSS, JavaScript, MongoDB, Web API, React.js, React-Native, Next.js. Ability to design and maintain application phases.</p>
         </div>
       </motion.div>
       <motion.div variants={fadeInUp} className='pt-0 lg:pt-2'>

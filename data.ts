@@ -22,8 +22,14 @@ export const languages:ISkill[]=[
     },
     {
         Icon: BsFillCircleFill,
-        name: 'Next.js',
+        name: 'React-Native',
         level: '70%',
+        levels: '100%'
+    },
+    {
+        Icon: BsFillCircleFill,
+        name: 'Next.js',
+        level: '75%',
         levels: '100%'
     },
     {
